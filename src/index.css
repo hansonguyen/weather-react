@@ -1,5 +1,10 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +12,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header--container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(31, 129, 199);
+  color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: #aaaaaa;
+  transition: 0.2s;
+}
+
+.weather--container {
+  height: 100vh;
+  background: radial-gradient(circle, rgba(54,201,203,1) 28%, rgba(45,168,253,1) 91%);
+  justify-content: center;
+}
+
+.text-input {
+  font-size: 3rem;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.main-weather {
+  padding: 2rem;
+  margin: auto;
+  transform: translate(0, 50%);
+  background: #eeeeee;
+  width: 75%;
+  border-radius: 10px;
+  align-items: center;
+  border: solid #aaaaaa;
+}
+
+.city {
+  font-size: 6rem;
+}
+
+.temperature {
+  font-size: 4rem;
+}
+
+.description {
+  font-size: 2rem;
 }

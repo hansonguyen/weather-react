@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": -112.0013, "lat": 41.0005 },
+  "weather": [
+    { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.83,
+    "feels_like": 15.87,
+    "temp_min": 21.99,
+    "temp_max": 30.16,
+    "pressure": 1028,
+    "humidity": 64
+  },
+  "visibility": 10000,
+  "wind": { "speed": 10.36, "deg": 110 },
+  "clouds": { "all": 0 },
+  "dt": 1668831120,
+  "sys": {
+    "type": 2,
+    "id": 2001962,
+    "country": "US",
+    "sunrise": 1668781158,
+    "sunset": 1668816445
+  },
+  "timezone": -25200,
+  "id": 5773664,
+  "name": "Davis",
+  "cod": 200
+}
